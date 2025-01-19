@@ -1,0 +1,15 @@
+<html>
+<head>
+    <script>
+        function sendMessage() {
+            // Call the WPF .NET method
+            window.external.SendMessage("Hello from the browser!");
+        }
+    </script>
+</head>
+  <body>
+    <h3>Hello World!</h3>
+
+      <input type="button" value="Send message to .net app..." onclick="sendMessage()"/>
+  </body>
+</html>
